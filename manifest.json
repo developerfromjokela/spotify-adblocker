@@ -1,0 +1,19 @@
+{
+  "name": "Spotify Ad Blocker",
+  "description": "Block spotify ads effectively",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "348": "icons/348.png"
+  },
+  "permissions": [
+    "*://*.spotify.com/",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["js/blocker.js"]
+  }
+}
